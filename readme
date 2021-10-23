@@ -1,8 +1,8 @@
-ds 1302 nin çalışabilmesi için besleme pinlerinin ve haberleşme pinlerinin kodda yazılan yerlere doğru şekilde bağlandığından emin olun.
+DS1302 nin çalışabilmesi için besleme pinlerinin ve haberleşme pinlerinin kodda yazılan yerlere doğru şekilde bağlandığından emin olun.
 int CLK_PIN = 6;                                   
 int DAT_PIN = 7;                                        
 int RST_PIN = 8;  
 
-saat ayarlaması için;
+Saat ayarlaması için;
 myRTC.setDS1302Time(10, 04, 12, 1, 13, 10, 2020);
 satırında ayarlama yapmanız gerekmektedir.
